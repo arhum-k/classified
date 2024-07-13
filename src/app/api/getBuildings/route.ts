@@ -20,22 +20,22 @@ interface Room {
     ];
   }
 
-  interface TimePeriod {
-    start: string;
+  interface TimeSlot {
+    start: number | string;
     end: number | string;
     itemName: string;
 
   }
   
-interface Unavailability {
+interface RoomUnavailability {
     itemId: number;
     itemName: string;
-    items: TimePeriod[];
+    items: TimeSlot[];
   }
   
 export async function POST(request: Request){
     const requestBody = await request.json()
-    console.log("request body:"+requestBody)
+    console.log(requestBody)
     const building = requestBody.building || '';
     const date = requestBody.date
     var numRooms;
@@ -83,7 +83,7 @@ export async function POST(request: Request){
         numRoomDataPages = firstPageRoomDataResponseJson.rows[0].pages
 
         //fetch the rest of the pages, if any
-        while (numRoomDataPages > 1) {
+        while (numRoomDataPages > 8) {
             roomDataQueryInfo.params.set('page', numRoomDataPages.toString());
             console.log("Fetching page: " + roomDataQueryInfo.params.get('page')); 
             const nextPageRoomDataResponse = await fetch (`${roomDataQueryInfo.url}?${roomDataQueryInfo.params}`, {
@@ -95,6 +95,7 @@ export async function POST(request: Request){
             numRoomDataPages--;
         }
         buildingsInfo = organizeRoomData(firstPageRoomDataResponseJson)
+        console.log("SUCCESS FETCHING ROOM INFO")
     
     } catch (error){
         console.error('Error fetching room info data:', error);
@@ -143,7 +144,7 @@ export async function POST(request: Request){
 
         const roomBookingsResponseJson = await roomBookingsResponse.json();
         storeBookingsInfoInRoomData(roomBookingsResponseJson)
-        console.log(buildingsInfo)
+        //console.log(buildingsInfo)
         return NextResponse.json({
             result: buildingsInfo,
           });
@@ -181,30 +182,105 @@ export async function POST(request: Request){
     }
 
     function storeBookingsInfoInRoomData(roomBookingsResponseJson: any) {
-        roomBookingsResponseJson.subjects.forEach((room: Unavailability) => {
+        roomBookingsResponseJson.subjects.forEach((room: RoomUnavailability) => {
             const roomId = room.itemName;
             const buildingCode = roomId.slice(0, 4); // Extract building code
         
             if (buildingsInfo[buildingCode] && buildingsInfo[buildingCode].rooms[roomId]) {
                 const bookings = room.items
-                  .filter((item: TimePeriod) => item.itemName === "(Private)")
-                  .map((period: TimePeriod) => ({
+                .filter((item) => item.itemName === "(Private)")
+                .map((period: TimeSlot) => ({
                     start: Number(period.start as string),
-                    end: roundToNearestHalf(Number(period.end as string))
+                    end: roundToNearestHalf(Number(period.end as string)),
+                    itemName:"Booked"
                   }));
             
                 const closed_hours = room.items
-                  .filter((item: TimePeriod) => item.itemName === "Closed")
-                  .map((period: TimePeriod) => ({
+                  .filter((item: TimeSlot) => item.itemName === "Closed")
+                  .map((period: TimeSlot) => ({
                     start: Number(period.start as string),
-                    end: roundToNearestHalf(Number(period.end as string))
+                    end: roundToNearestHalf(Number(period.end as string)),
+                    itemName:"Closed"
                   }));
+
+                  closed_hours.push(
+                    { start: 23, end: 24, itemName: "Closed" },
+                    { start: 0, end: 6, itemName: "Closed" }
+                  );
+
+                const mergedClosedHours = mergeTimeSlots(closed_hours);
+
             
                 buildingsInfo[buildingCode].rooms[roomId].bookings = bookings;
-                buildingsInfo[buildingCode].rooms[roomId].closed_hours = closed_hours;
+                buildingsInfo[buildingCode].rooms[roomId].closed_hours = mergedClosedHours;
+                buildingsInfo[buildingCode].rooms[roomId].availability = calculateAvailability(bookings, closed_hours);
+
               }
         });
     }
+
+    function calculateAvailability(bookings: TimeSlot[], closedHours: TimeSlot[]): TimeSlot[] {
+      const mergedPeriods = [...bookings, ...closedHours].sort((a, b) => Number(a.start) - Number(b.start));
+      const availability: TimeSlot[] = [];
+    
+      let endOfLastPeriod = 0;
+    
+      mergedPeriods.forEach((period) => {
+        const start = Number(period.start);
+        const end = Number(period.end);
+    
+        if (start > endOfLastPeriod) {
+          availability.push({
+            start: endOfLastPeriod,
+            end: start,
+            itemName: "Available"
+          });
+        }
+        endOfLastPeriod = Math.max(endOfLastPeriod, end);
+      });
+    
+      // Assuming the end of the day is 24 hours
+      if (endOfLastPeriod < 24) {
+        availability.push({
+          start: endOfLastPeriod,
+          end: 24,
+          itemName: "Available"
+        });
+      }
+    
+    
+      return availability;
+    }
+
+    function mergeTimeSlots(periods: TimeSlot[]): TimeSlot[] {
+      if (periods.length === 0) return [];
+    
+      // Sort periods by start time
+      periods.sort((a, b) => Number(a.start) - Number(b.start));
+    
+      const merged: TimeSlot[] = [];
+      let currentPeriod = periods[0];
+    
+      for (let i = 1; i < periods.length; i++) {
+        const nextPeriod = periods[i];
+    
+        if (Number(nextPeriod.start) <= Number(currentPeriod.end)) {
+          // Overlapping or contiguous periods, merge them
+          currentPeriod.end = Math.max(Number(currentPeriod.end), Number(nextPeriod.end));
+        } else {
+          // Non-overlapping period, push the current period and start a new one
+          merged.push(currentPeriod);
+          currentPeriod = nextPeriod;
+        }
+      }
+    
+      // Push the last period
+      merged.push(currentPeriod);
+    
+      return merged;
+    }
+
+
     function roundToNearestHalf(time: number) {
         const rounded = Math.round(time * 2) / 2;
         return rounded;
