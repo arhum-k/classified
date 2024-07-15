@@ -1,0 +1,17 @@
+TODO
+
+-- add a selected building field in sessionStorage (will need on homepage and display)
+-- add/handle time select button 
+    -- show only valid times
+    -- update formatDate function so that it just adds 00s if the date doesnt 
+        meet character req (right now it cuts off all time)
+-- prettify loading screen
+-- make a grid of RoomCards rather than the current list
+-- display building name 
+
+
+
+BUGS
+-- when you select a date, it refreshes on the same building,
+    but the building doesnt show as selected in the dropdown menu
+    -- set the default option selected to the selected building, or nothing if Null

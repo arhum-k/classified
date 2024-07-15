@@ -1,38 +1,6 @@
 import { NextResponse } from "next/server";
+import { Room, TimeSlot, RoomUnavailability } from "@/app/types";
 
-interface RoomInfo {
-    templateType: number;
-    itemId: number | string;
-    itemName: string;
-    itemTypeId: number;
-  }
-interface Room {
-    contextId: number;
-    row: [
-      RoomInfo,
-      string, // Building Name
-      string, // Categories
-      string, // Features
-      string, // Layouts
-      number, // Max Capacity
-      number, // Default Capacity
-      RoomInfo
-    ];
-  }
-
-  interface TimeSlot {
-    start: number | string;
-    end: number | string;
-    itemName: string;
-
-  }
-  
-interface RoomUnavailability {
-    itemId: number;
-    itemName: string;
-    items: TimeSlot[];
-  }
-  
 export async function POST(request: Request){
     const requestBody = await request.json()
     console.log(requestBody)
@@ -106,6 +74,7 @@ export async function POST(request: Request){
     
     
 //fetch room bookings
+    console.log(date);
     const roomBookingsDataQueryInfo = {
         url: 'https://25live.collegenet.com/25live/data/berkeley/run/availability/availabilitydata.json',
         params: new URLSearchParams({
@@ -143,6 +112,7 @@ export async function POST(request: Request){
         });
 
         const roomBookingsResponseJson = await roomBookingsResponse.json();
+        console.log(roomBookingsResponseJson)
         storeBookingsInfoInRoomData(roomBookingsResponseJson)
         //console.log(buildingsInfo)
         return NextResponse.json({

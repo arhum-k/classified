@@ -1,55 +1,31 @@
 "use client"
 
-import { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useContext } from "react";
+import { CampusDataContext } from "../context/CampusData";
 import Navbar from "../components/Navbar";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
 import SelectDropDown from "../components/SelectDropDown";
-
+import { Room, RoomUnavailability, TimeSlot } from "../types";
+import { time } from "console";
+import RoomCard from "../components/RoomCard";
 
 
 export default function Display() {
-
-  const [campusData, setCampusData] = useState(null)
-  const [buildingCodes, setBuildingCodes] = useState<string[] | null>(null);
+  const { campusData, buildingCodes, isLoading, date, updateDate, refreshData } = useContext(CampusDataContext);
+  const [selectedDate, setSelectedDate] = useState(date);
   const [selectedBuildingCode, setSelectedBuildingCode] = useState<string | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
-  const effectRan = useRef(false);
-  var todaysDate = new Date().toISOString();
-  var selectedDate = "2024-07-15T00:00:00"
+  console.log("context", campusData)
 
-  useEffect(() => {
-    if (effectRan.current === false) {
-      getData()
-      return () => {
-        effectRan.current = true;
-      }
-    }
-  }, [])
+  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedDate(e.target.value);
+  };
 
-  async function getData() {
-    const res = await fetch('api/getBuildings', {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        date: selectedDate || todaysDate,
-      }),
-    }
-    )
-    const data = await res.json()
-    setCampusData(data.result);
-    setBuildingCodes(Object.keys(data.result))
-    setIsLoading(false);
-    console.log(data.result)
-
+  const handleUpdateDate = () => {
+    updateDate(selectedDate);
   }
+
+   const handleRefresh = () => {
+    refreshData();
+  };
 
   const buidlingDropDownSelectOptions = buildingCodes?.map((buildingCode) => ({
     value: buildingCode,
@@ -68,8 +44,60 @@ export default function Display() {
   return (
     <>
       <Navbar />
-      <div className="p-2">
-        <SelectDropDown items={buidlingDropDownSelectOptions} onChange={setSelectedBuildingCode} />
+      <div className="p-6">
+        <div className="flex items-center justify-between mb-4">
+          <div className="flex items-center space-x-2">
+            <SelectDropDown items={buidlingDropDownSelectOptions} onChange={setSelectedBuildingCode} />
+            <input 
+              type="datetime-local" 
+              value={selectedDate} 
+              onChange={handleDateChange} 
+              className="p-2 border rounded"
+            />
+            <button 
+              onClick={handleUpdateDate} 
+              className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
+            >
+              Update Date
+            </button>
+          </div>
+          <button 
+            onClick={handleRefresh} 
+            className="p-2 bg-green-500 text-white rounded hover:bg-green-700"
+          >
+            Refresh
+          </button>
+        </div>
+
+
+        <div>
+          {isLoading ? (
+            <p>Loading...</p>
+          ) : (
+            <div>
+              {selectedBuildingCode && campusData && campusData[selectedBuildingCode] ? (
+                Object.keys(campusData[selectedBuildingCode].rooms).map((roomCode) => {
+                  const room = campusData[selectedBuildingCode].rooms[roomCode];
+                  console.log(room.availability);
+                  return (
+                    <RoomCard
+                      roomCode={roomCode}
+                      buildingCode={selectedBuildingCode}
+                      buildingName = {campusData[selectedBuildingCode].building_name}
+                      max_capacity={room.max_capacity}
+                      categories={room.categories}
+                      features={room.features}
+                      availability={room.availability}
+                  />
+                  );
+                })
+              ) : (
+                <p>Select a building</p>
+              )}
+            </div>
+          )}
+        </div>
+
       </div>
     </>
   )
