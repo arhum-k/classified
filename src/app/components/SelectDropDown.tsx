@@ -6,16 +6,12 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
+import { SelectDropDownProps } from "../types"
 
-interface SelectDropDownProps {
-    items: { value: any; label: any }[];
-    onChange: (value: any) => void;
-  }
-  
 
-  export default function SelectDropDown({ items, onChange }: SelectDropDownProps) {
+  export default function SelectDropDown({ items, defaultValue, onChange }: SelectDropDownProps) {
     return (
-      <Select onValueChange={onChange}>
+      <Select onValueChange={onChange} defaultValue={defaultValue || undefined}>
         <SelectTrigger className="w-[180px]">
           <SelectValue placeholder="Building" />
         </SelectTrigger>

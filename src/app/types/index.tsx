@@ -34,10 +34,16 @@ export interface RoomUnavailability {
 
 export interface RoomCardProps {
     roomCode: string;
-    buildingCode: string;
+    buildingCode: string | null;
     buildingName: string;
     max_capacity: number;
     categories: string[];
     features: string[];
     availability: TimeSlot[];
+}
+
+export interface SelectDropDownProps {
+  items: { value: any; label: any }[];
+  defaultValue: string | null;
+  onChange: (value: any) => void;
 }

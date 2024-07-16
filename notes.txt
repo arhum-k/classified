@@ -1,7 +1,8 @@
 TODO
 
--- add a selected building field in sessionStorage (will need on homepage and display)
+--xx-- add a selected building field in sessionStorage (will need on homepage and display)
 -- add/handle time select button 
+    -- new date picker component
     -- show only valid times
     -- update formatDate function so that it just adds 00s if the date doesnt 
         meet character req (right now it cuts off all time)

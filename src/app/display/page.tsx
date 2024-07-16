@@ -7,20 +7,26 @@ import SelectDropDown from "../components/SelectDropDown";
 import { Room, RoomUnavailability, TimeSlot } from "../types";
 import { time } from "console";
 import RoomCard from "../components/RoomCard";
+import { DatePicker } from "../components/DatePicker";
 
 
 export default function Display() {
-  const { campusData, buildingCodes, isLoading, date, updateDate, refreshData } = useContext(CampusDataContext);
-  const [selectedDate, setSelectedDate] = useState(date);
+  const { campusData, buildingCodes, selectedBuilding, isLoading, date, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
+  const [selectedDateString, setSelectedDateString] = useState(date);
   const [selectedBuildingCode, setSelectedBuildingCode] = useState<string | null>(null);
   console.log("context", campusData)
 
-  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSelectedDate(e.target.value);
+  const handleDateChange = (date: Date) => {
+    console.log("change date", date);
+    setSelectedDateString(date.toISOString());
   };
 
   const handleUpdateDate = () => {
-    updateDate(selectedDate);
+    updateDate(selectedDateString);
+  }
+
+  const handleUpdateSelectedBuilding = (buildingCode: string) => {
+    updateSelectedBuilding(buildingCode);
   }
 
    const handleRefresh = () => {
@@ -31,8 +37,6 @@ export default function Display() {
     value: buildingCode,
     label: campusData?.[buildingCode]?.["building_name"] || "Unknown Building",
   })) || [];
-
-  console.log(selectedBuildingCode)
   if (isLoading) {
     return (
       <div>
@@ -47,13 +51,9 @@ export default function Display() {
       <div className="p-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center space-x-2">
-            <SelectDropDown items={buidlingDropDownSelectOptions} onChange={setSelectedBuildingCode} />
-            <input 
-              type="datetime-local" 
-              value={selectedDate} 
-              onChange={handleDateChange} 
-              className="p-2 border rounded"
-            />
+            <SelectDropDown defaultValue={selectedBuilding} items={buidlingDropDownSelectOptions} onChange={handleUpdateSelectedBuilding} />
+           
+            <DatePicker onChange={handleDateChange} value={new Date(selectedDateString)}/>
             <button 
               onClick={handleUpdateDate} 
               className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
@@ -75,15 +75,14 @@ export default function Display() {
             <p>Loading...</p>
           ) : (
             <div>
-              {selectedBuildingCode && campusData && campusData[selectedBuildingCode] ? (
-                Object.keys(campusData[selectedBuildingCode].rooms).map((roomCode) => {
-                  const room = campusData[selectedBuildingCode].rooms[roomCode];
-                  console.log(room.availability);
+              {selectedBuilding && campusData && campusData[selectedBuilding] ? (
+                Object.keys(campusData[selectedBuilding].rooms).map((roomCode) => {
+                  const room = campusData[selectedBuilding].rooms[roomCode];
                   return (
                     <RoomCard
                       roomCode={roomCode}
                       buildingCode={selectedBuildingCode}
-                      buildingName = {campusData[selectedBuildingCode].building_name}
+                      buildingName = {campusData[selectedBuilding].building_name}
                       max_capacity={room.max_capacity}
                       categories={room.categories}
                       features={room.features}
