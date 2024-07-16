@@ -12,9 +12,16 @@ import { DatePicker } from "../components/DatePicker";
 
 export default function Display() {
   const { campusData, buildingCodes, selectedBuilding, isLoading, date, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
-  const [selectedDateString, setSelectedDateString] = useState(date);
+  console.log("Display Date",date)
+  const [selectedDateString, setSelectedDateString] = useState<string | null>(null);
+  console.log("Display selectedDateString",selectedDateString)
   const [selectedBuildingCode, setSelectedBuildingCode] = useState<string | null>(null);
-  console.log("context", campusData)
+  //console.log("context", campusData)
+  useEffect(() => {
+    console.log("date useEffecrt triggered", date);
+    setSelectedDateString(date);
+  }, [date]);
+
 
   const handleDateChange = (date: Date) => {
     console.log("change date", date);
@@ -22,7 +29,9 @@ export default function Display() {
   };
 
   const handleUpdateDate = () => {
-    updateDate(selectedDateString);
+    if (selectedDateString != null) {
+      updateDate(selectedDateString);
+    }
   }
 
   const handleUpdateSelectedBuilding = (buildingCode: string) => {
@@ -37,14 +46,11 @@ export default function Display() {
     value: buildingCode,
     label: campusData?.[buildingCode]?.["building_name"] || "Unknown Building",
   })) || [];
-  if (isLoading) {
-    return (
-      <div>
-        <Navbar/>
-        <p>Loading...</p>
-      </div>
-    )
-  } else {
+
+  if (selectedDateString === null) {
+    return <p></p>;
+  }
+
   return (
     <>
       <Navbar />
@@ -53,7 +59,7 @@ export default function Display() {
           <div className="flex items-center space-x-2">
             <SelectDropDown defaultValue={selectedBuilding} items={buidlingDropDownSelectOptions} onChange={handleUpdateSelectedBuilding} />
            
-            <DatePicker onChange={handleDateChange} value={new Date(selectedDateString)}/>
+            {selectedDateString && <DatePicker onChange={handleDateChange} value={new Date(selectedDateString)}/>}
             <button 
               onClick={handleUpdateDate} 
               className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
@@ -101,4 +107,4 @@ export default function Display() {
     </>
   )
 }
-}
+

@@ -1,5 +1,5 @@
 "use client"
-
+import { useEffect, useState } from "react"
 import * as React from "react"
 import { CalendarIcon } from "@radix-ui/react-icons"
 import { addDays, format } from "date-fns"
@@ -20,15 +20,19 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-interface SelectDropDownProps {
+interface DatePickerProps {
     value: Date;
     onChange: (value: any) => void;
 }
 
 
-export function DatePicker({onChange, value}: SelectDropDownProps) {
-    console.log(value)
-    const [date, setDate] = React.useState<Date>(value); 
+export function DatePicker({onChange, value}: DatePickerProps) {
+    const [date, setDate] = useState<Date>(value); 
+
+    useEffect(() => {
+      setDate(value);
+    }, [value]);
+  
     const handleSelect = (day: Date | undefined) => {
         if (day instanceof Date) {
           setDate(day);
