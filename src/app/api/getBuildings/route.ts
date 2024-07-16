@@ -5,7 +5,7 @@ export async function POST(request: Request){
     const requestBody = await request.json()
     console.log(requestBody)
     const building = requestBody.building || '';
-    const date = requestBody.date
+    const dateString = requestBody.dateString
     var numRooms;
     var buildingsInfo: Record<string, any>;
 
@@ -74,12 +74,12 @@ export async function POST(request: Request){
     
     
 //fetch room bookings
-    console.log(date);
+    console.log(dateString);
     const roomBookingsDataQueryInfo = {
         url: 'https://25live.collegenet.com/25live/data/berkeley/run/availability/availabilitydata.json',
         params: new URLSearchParams({
             'obj_cache_accl': '0',
-            'start_dt': date,
+            'start_dt': dateString,
             'comptype': 'availability',
             'compsubject': 'location',
             'page_size': numRooms,
@@ -114,7 +114,7 @@ export async function POST(request: Request){
         const roomBookingsResponseJson = await roomBookingsResponse.json();
         console.log(roomBookingsResponseJson)
         storeBookingsInfoInRoomData(roomBookingsResponseJson)
-        //console.log(buildingsInfo)
+        console.log("SUCCESS FETCHING BOOKINGS INFO")
         return NextResponse.json({
             result: buildingsInfo,
           });

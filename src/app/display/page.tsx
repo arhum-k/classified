@@ -11,16 +11,14 @@ import { DatePicker } from "../components/DatePicker";
 
 
 export default function Display() {
-  const { campusData, buildingCodes, selectedBuilding, isLoading, date, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
-  console.log("Display Date",date)
+  const { campusData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
   const [selectedDateString, setSelectedDateString] = useState<string | null>(null);
-  console.log("Display selectedDateString",selectedDateString)
   const [selectedBuildingCode, setSelectedBuildingCode] = useState<string | null>(null);
-  //console.log("context", campusData)
+  console.log("campus Data context", campusData)
   useEffect(() => {
-    console.log("date useEffecrt triggered", date);
-    setSelectedDateString(date);
-  }, [date]);
+    console.log("dateString useEffect triggered", dateString);
+    setSelectedDateString(dateString);
+  }, [dateString]);
 
 
   const handleDateChange = (date: Date) => {

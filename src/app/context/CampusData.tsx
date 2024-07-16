@@ -7,7 +7,7 @@ interface CampusContextType {
   buildingCodes: string[] | null;
   selectedBuilding: string | null;
   isLoading: boolean;
-  date: string;
+  dateString: string;
   updateDate: (newDate: string) => void;
   updateSelectedBuilding: (buildingCode: string) => void;
   refreshData: () => void;
@@ -19,7 +19,7 @@ const initialContextState: CampusContextType = {
   buildingCodes: null,
   selectedBuilding: null,
   isLoading: true,
-  date: new Date().toISOString(),
+  dateString: new Date().toISOString(),
   updateDate: () => {},
   updateSelectedBuilding: () => {},
   refreshData: () => {},
@@ -33,7 +33,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
   const [buildingCodes, setBuildingCodes] = useState<string[] | null>(null);
   const [selectedBuilding, setSelectedBuilding] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [date, setDate] = useState(new Date().toISOString());
+  const [dateString, setDateString] = useState(new Date().toISOString());
   const initialFetch = useRef(true);
 
   useEffect(() => {
@@ -43,19 +43,20 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       const savedCodes = sessionStorage.getItem("buildingCodes");
       const savedSelectedBuilding = sessionStorage.getItem("selectedBuilding");
       const savedLoading = sessionStorage.getItem("isLoading");
-      const savedDate = sessionStorage.getItem("date");
+      const savedDate = sessionStorage.getItem("dateString");
 
       console.log("Session Storage Values", { savedData, savedCodes, savedSelectedBuilding, savedLoading, savedDate });
+      console.log(sessionStorage)
 
       if (savedData && savedCodes && savedSelectedBuilding && savedLoading && savedDate) {
         setCampusData(JSON.parse(savedData));
         setBuildingCodes(JSON.parse(savedCodes));
         setSelectedBuilding(savedSelectedBuilding !== "null" ? savedSelectedBuilding : null);
         setIsLoading(JSON.parse(savedLoading));
-        setDate(savedDate);
+        setDateString(savedDate);
         console.log("Using saved session storage data");
       } else if (initialFetch.current) {
-        getData(date);
+        getData(dateString);
         initialFetch.current = false;
         console.log("Initial fetch triggered");
       }
@@ -64,15 +65,15 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   
 
-  async function getData(date: string) {
-    console.log("Fetching data for date:", date);
+  async function getData(dateString: string) {
+    console.log("Fetching data for dateString:", dateString);
     const res = await fetch("api/getBuildings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        date: date || new Date().toISOString(),
+        dateString: dateString || new Date().toISOString(),
       }),
     });
     const data = await res.json();
@@ -84,15 +85,15 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       sessionStorage.setItem("buildingCodes", JSON.stringify(Object.keys(data.result)));
       sessionStorage.setItem("selectedBuilding", selectedBuilding ? selectedBuilding : JSON.stringify(null));
       sessionStorage.setItem("isLoading", JSON.stringify(false));
-      sessionStorage.setItem("date", date); // Ensure date is saved
+      sessionStorage.setItem("dateString", dateString); // Ensure dateString is saved
 
       console.log("Data saved to session storage");
     }
-    console.log("Data fetched:", data.result);
+    //console.log("Data fetched:", data.result);
   }
 
-  const formatDate = (date: string) => {
-    const d = new Date(date);
+  const formatDate = (dateString: string) => {
+    const d = new Date(dateString);
     const formattedDate = d.toISOString().split(".")[0]; // Removing milliseconds
     return formattedDate;
   };
@@ -105,8 +106,8 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   const updateDate = (newDate: string) => {
     const formattedDate = formatDate(newDate);
-    setDate(formattedDate);
-    sessionStorage.setItem("selectedDate", formattedDate);
+    setDateString(formattedDate);
+    sessionStorage.setItem("dateString", formattedDate);
     setIsLoading(true);
     console.log("Date updated:", formattedDate);
     getData(formattedDate);
@@ -114,10 +115,10 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   const refreshData = () => {
     setIsLoading(true);
-    getData(date);
+    getData(dateString);
     console.log("Data refreshed");
     console.log("Selected Building:", sessionStorage.getItem("selectedBuilding"));
-    console.log("Selected Date:", sessionStorage.getItem("selectedDate"));
+    console.log("Date:", sessionStorage.getItem("dateString"));
     console.log("Campus Data:", sessionStorage.getItem("campusData"));
     console.log("Building Codes:", sessionStorage.getItem("buildingCodes"));
     
@@ -127,7 +128,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <CampusDataContext.Provider
-      value={{ campusData, buildingCodes, selectedBuilding, isLoading, date, updateDate, updateSelectedBuilding, refreshData }}
+      value={{ campusData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData }}
     >
       {children}
     </CampusDataContext.Provider>

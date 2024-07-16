@@ -1,8 +1,8 @@
 TODO
 
 -- add/handle time select button 
-    --xx-- new date picker component
-    -- organize date variables (specify date string or Date type)
+    -xx- new date picker component
+    -xx- organize date variables (specify date string or Date type)
     -- show only valid times
     -- update formatDate function so that it just adds 00s if the date doesnt 
         meet character req (right now it cuts off all time)
@@ -13,6 +13,3 @@ TODO
 
 
 BUGS
--- when you select a date, it refreshes on the same building,
-    but the building doesnt show as selected in the dropdown menu
-    -- set the default option selected to the selected building, or nothing if Null
