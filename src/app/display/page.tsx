@@ -8,12 +8,12 @@ import { Room, RoomUnavailability, TimeSlot } from "../types";
 import { time } from "console";
 import RoomCard from "../components/RoomCard";
 import { DatePicker } from "../components/DatePicker";
+import { Button } from "@/components/ui/button"
 
 
 export default function Display() {
   const { campusData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
   const [selectedDateString, setSelectedDateString] = useState<string | null>(null);
-  const [selectedBuildingCode, setSelectedBuildingCode] = useState<string | null>(null);
   console.log("campus Data context", campusData)
   useEffect(() => {
     console.log("dateString useEffect triggered", dateString);
@@ -58,46 +58,31 @@ export default function Display() {
             <SelectDropDown defaultValue={selectedBuilding} items={buidlingDropDownSelectOptions} onChange={handleUpdateSelectedBuilding} />
            
             {selectedDateString && <DatePicker onChange={handleDateChange} value={new Date(selectedDateString)}/>}
-            <button 
-              onClick={handleUpdateDate} 
-              className="p-2 bg-blue-500 text-white rounded hover:bg-blue-700"
-            >
-              Update Date
-            </button>
+            <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Update Date</Button>
           </div>
-          <button 
-            onClick={handleRefresh} 
-            className="p-2 bg-green-500 text-white rounded hover:bg-green-700"
-          >
-            Refresh
-          </button>
+          <Button variant="ghost" onClick={handleRefresh}>Refresh</Button>
         </div>
 
-
-        <div>
-          {isLoading ? (
-            <p>Loading...</p>
-          ) : (
-            <div>
-              {selectedBuilding && campusData && campusData[selectedBuilding] ? (
-                Object.keys(campusData[selectedBuilding].rooms).map((roomCode) => {
-                  const room = campusData[selectedBuilding].rooms[roomCode];
-                  return (
-                    <RoomCard
-                      roomCode={roomCode}
-                      buildingCode={selectedBuildingCode}
-                      buildingName = {campusData[selectedBuilding].building_name}
-                      max_capacity={room.max_capacity}
-                      categories={room.categories}
-                      features={room.features}
-                      availability={room.availability}
+        <div className="flex flex-wrap -mx-2">
+          {selectedBuilding && campusData && campusData[selectedBuilding] ? (
+            Object.keys(campusData[selectedBuilding].rooms).map((roomCode) => {
+              const room = campusData[selectedBuilding].rooms[roomCode];
+              return (
+                <div key={roomCode} className="px-2 mb-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+                  <RoomCard
+                    roomCode={roomCode}
+                    buildingCode={selectedBuilding}
+                    buildingName={campusData[selectedBuilding].building_name}
+                    max_capacity={room.max_capacity}
+                    categories={room.categories}
+                    features={room.features}
+                    availability={room.availability}
                   />
-                  );
-                })
-              ) : (
-                <p>Select a building</p>
-              )}
-            </div>
+                </div>
+              );
+            })
+          ) : (
+            <p>Select a building</p>
           )}
         </div>
 

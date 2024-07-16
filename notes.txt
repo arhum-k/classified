@@ -9,6 +9,7 @@ TODO
 -- prettify loading screen
 -- make a grid of RoomCards rather than the current list
 -- display building name 
+-- landing page
 
 
 
