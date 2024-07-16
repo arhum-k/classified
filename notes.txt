@@ -1,5 +1,7 @@
 TODO
 
+--clean up data calls 
+    -- only /display should call getData (remove context from home?)
 -- add/handle time select button 
     -xx- new date picker component
     -xx- organize date variables (specify date string or Date type)

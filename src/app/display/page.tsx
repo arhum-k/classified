@@ -45,8 +45,8 @@ export default function Display() {
     label: campusData?.[buildingCode]?.["building_name"] || "Unknown Building",
   })) || [];
 
-  if (selectedDateString === null) {
-    return <p></p>;
+  if (isLoading || selectedDateString === null) {
+    return <p>Loading</p>;
   }
 
   return (
