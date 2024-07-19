@@ -21,16 +21,16 @@ import {
 } from "@/components/ui/select"
 
 interface DatePickerProps {
-    value: Date;
+    value: string;
     onChange: (value: any) => void;
 }
 
 
 export function DatePicker({onChange, value}: DatePickerProps) {
-    const [date, setDate] = useState<Date>(value); 
+    const [date, setDate] = useState(new Date(value)); 
 
     useEffect(() => {
-      setDate(value);
+      setDate(new Date(value));
     }, [value]);
   
     const handleSelect = (day: Date | undefined) => {

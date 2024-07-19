@@ -2,6 +2,7 @@ TODO
 
 --clean up data calls 
     -- only /display should call getData (remove context from home?)
+--call getBuildingsBookings when Search on /display (add to Context?)
 -- add/handle time select button 
     -xx- new date picker component
     -xx- organize date variables (specify date string or Date type)
@@ -9,9 +10,9 @@ TODO
     -- update formatDate function so that it just adds 00s if the date doesnt 
         meet character req (right now it cuts off all time)
 -- prettify loading screen
--- make a grid of RoomCards rather than the current list
 -- display building name 
 -- landing page
+
 
 
 

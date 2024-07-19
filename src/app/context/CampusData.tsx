@@ -67,7 +67,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   async function getData(dateString: string) {
     console.log("Fetching data for dateString:", dateString);
-    const res = await fetch("api/getBuildings", {
+    const res = await fetch("api/getBuildingsInfoAndBookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -77,20 +77,22 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       }),
     });
     const data = await res.json();
-    setCampusData(data.result);
-    setBuildingCodes(Object.keys(data.result));
-    setIsLoading(false);
-    if (typeof window !== "undefined") {
-      sessionStorage.setItem("campusData", JSON.stringify(data.result));
-      sessionStorage.setItem("buildingCodes", JSON.stringify(Object.keys(data.result)));
-      sessionStorage.setItem("selectedBuilding", selectedBuilding ? selectedBuilding : JSON.stringify(null));
-      sessionStorage.setItem("isLoading", JSON.stringify(false));
-      sessionStorage.setItem("dateString", dateString); // Ensure dateString is saved
+    if (data.result) {
+      setCampusData(data.result);
+      setBuildingCodes(Object.keys(data.result));
+      setIsLoading(false);
+      if (typeof window !== "undefined") {
+        sessionStorage.setItem("campusData", JSON.stringify(data.result));
+        sessionStorage.setItem("buildingCodes", JSON.stringify(Object.keys(data.result)));
+        sessionStorage.setItem("selectedBuilding", selectedBuilding ? selectedBuilding : JSON.stringify(null));
+        sessionStorage.setItem("isLoading", JSON.stringify(false));
+        sessionStorage.setItem("dateString", dateString); // Ensure dateString is saved
 
-      console.log("Data saved to session storage");
-    }
+        console.log("Data saved to session storage");
+      }
     //console.log("Data fetched:", data.result);
-  }
+      }
+    }
 
   const formatDate = (dateString: string) => {
     const d = new Date(dateString);

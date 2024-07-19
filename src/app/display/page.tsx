@@ -9,12 +9,25 @@ import { time } from "console";
 import RoomCard from "../components/RoomCard";
 import { DatePicker } from "../components/DatePicker";
 import { Button } from "@/components/ui/button"
+import buildingsData from "../context/buildingsData";
 
 
 export default function Display() {
-  const { campusData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
-  const [selectedDateString, setSelectedDateString] = useState<string | null>(null);
+  const { campusData, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
+  const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
+  const [buildingCode, setBuildingCode] = useState<string | null>(null);
+  const [isBuildingCodeLoaded, setIsBuildingCodeLoaded] = useState<boolean>(false);
+
   console.log("campus Data context", campusData)
+
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get('buildingCode');
+    setBuildingCode(code);
+    setIsBuildingCodeLoaded(true)
+  }, []);
+
   useEffect(() => {
     console.log("dateString useEffect triggered", dateString);
     setSelectedDateString(dateString);
@@ -33,6 +46,10 @@ export default function Display() {
   }
 
   const handleUpdateSelectedBuilding = (buildingCode: string) => {
+    setBuildingCode(buildingCode);
+    const params = new URLSearchParams(window.location.search);
+    params.set('buildingCode', buildingCode);
+    window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
     updateSelectedBuilding(buildingCode);
   }
 
@@ -40,39 +57,51 @@ export default function Display() {
     refreshData();
   };
 
-  const buidlingDropDownSelectOptions = buildingCodes?.map((buildingCode) => ({
-    value: buildingCode,
-    label: campusData?.[buildingCode]?.["building_name"] || "Unknown Building",
-  })) || [];
-
-  if (isLoading || selectedDateString === null) {
-    return <p>Loading</p>;
+  if (isLoading) {
+    return (
+      <>
+        <Navbar />
+        <div className="p-6">
+        <>
+            <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center space-x-2">
+                  <SelectDropDown defaultValue={buildingCode} items={buildingsData} onChange={handleUpdateSelectedBuilding} />
+                  <DatePicker onChange={handleDateChange} value={selectedDateString}/>
+                  <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Search</Button>
+                </div>
+            </div>
+        </>
+        <p>Loading</p>
+        </div>
+      </>
+    )
   }
 
   return (
     <>
       <Navbar />
       <div className="p-6">
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center space-x-2">
-            <SelectDropDown defaultValue={selectedBuilding} items={buidlingDropDownSelectOptions} onChange={handleUpdateSelectedBuilding} />
-           
-            {selectedDateString && <DatePicker onChange={handleDateChange} value={new Date(selectedDateString)}/>}
-            <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Update Date</Button>
-          </div>
-          <Button variant="ghost" onClick={handleRefresh}>Refresh</Button>
-        </div>
-
+        <>
+            <div className="flex items-center justify-between mb-4">
+               {isBuildingCodeLoaded && 
+                <div className="flex items-center space-x-2">
+                  <SelectDropDown defaultValue={buildingCode} items={buildingsData} onChange={handleUpdateSelectedBuilding} />
+                  <DatePicker onChange={handleDateChange} value={selectedDateString}/>
+                  <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Search</Button>
+                </div>}
+            </div>
+        </>
+        
         <div className="flex flex-wrap -mx-2">
-          {selectedBuilding && campusData && campusData[selectedBuilding] ? (
-            Object.keys(campusData[selectedBuilding].rooms).map((roomCode) => {
-              const room = campusData[selectedBuilding].rooms[roomCode];
+          {buildingCode && campusData && campusData[buildingCode] ? (
+            Object.keys(campusData[buildingCode].rooms).map((roomCode) => {
+              const room = campusData[buildingCode].rooms[roomCode];
               return (
                 <div key={roomCode} className="px-2 mb-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
                   <RoomCard
                     roomCode={roomCode}
-                    buildingCode={selectedBuilding}
-                    buildingName={campusData[selectedBuilding].building_name}
+                    buildingCode={buildingCode}
+                    buildingName={campusData[buildingCode].building_name}
                     max_capacity={room.max_capacity}
                     categories={room.categories}
                     features={room.features}

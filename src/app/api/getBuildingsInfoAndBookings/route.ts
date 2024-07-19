@@ -51,7 +51,7 @@ export async function POST(request: Request){
         numRoomDataPages = firstPageRoomDataResponseJson.rows[0].pages
 
         //fetch the rest of the pages, if any
-        while (numRoomDataPages > 1) {
+        while (numRoomDataPages > 6) {
             roomDataQueryInfo.params.set('page', numRoomDataPages.toString());
             console.log("Fetching page: " + roomDataQueryInfo.params.get('page')); 
             const nextPageRoomDataResponse = await fetch (`${roomDataQueryInfo.url}?${roomDataQueryInfo.params}`, {
@@ -112,7 +112,6 @@ export async function POST(request: Request){
         });
 
         const roomBookingsResponseJson = await roomBookingsResponse.json();
-        console.log(roomBookingsResponseJson)
         storeBookingsInfoInRoomData(roomBookingsResponseJson)
         console.log("SUCCESS FETCHING BOOKINGS INFO")
         return NextResponse.json({
@@ -152,10 +151,11 @@ export async function POST(request: Request){
     }
 
     function storeBookingsInfoInRoomData(roomBookingsResponseJson: any) {
+      console.log('storebook')
         roomBookingsResponseJson.subjects.forEach((room: RoomUnavailability) => {
-            const roomId = room.itemName;
+            const roomId = room.itemName.split(" ")[0];
+            console.log(roomId)
             const buildingCode = roomId.slice(0, 4); // Extract building code
-        
             if (buildingsInfo[buildingCode] && buildingsInfo[buildingCode].rooms[roomId]) {
                 const bookings = room.items
                 .filter((item) => item.itemName === "(Private)")
@@ -184,7 +184,7 @@ export async function POST(request: Request){
                 buildingsInfo[buildingCode].rooms[roomId].bookings = bookings;
                 buildingsInfo[buildingCode].rooms[roomId].closed_hours = mergedClosedHours;
                 buildingsInfo[buildingCode].rooms[roomId].availability = calculateAvailability(bookings, closed_hours);
-
+                  
               }
         });
     }
