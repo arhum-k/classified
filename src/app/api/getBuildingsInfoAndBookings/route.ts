@@ -51,7 +51,7 @@ export async function POST(request: Request){
         numRoomDataPages = firstPageRoomDataResponseJson.rows[0].pages
 
         //fetch the rest of the pages, if any
-        while (numRoomDataPages > 6) {
+        while (numRoomDataPages > 1) {
             roomDataQueryInfo.params.set('page', numRoomDataPages.toString());
             console.log("Fetching page: " + roomDataQueryInfo.params.get('page')); 
             const nextPageRoomDataResponse = await fetch (`${roomDataQueryInfo.url}?${roomDataQueryInfo.params}`, {
@@ -116,6 +116,7 @@ export async function POST(request: Request){
         console.log("SUCCESS FETCHING BOOKINGS INFO")
         return NextResponse.json({
             result: buildingsInfo,
+            numRooms: numRooms,
           });
     } catch (error) {
         console.error('Error fetching room bookings data:', error);

@@ -64,11 +64,11 @@ export default function Display() {
         <div className="p-6">
         <>
             <div className="flex items-center justify-between mb-4">
-                <div className="flex items-center space-x-2">
+               {isBuildingCodeLoaded && <div className="flex items-center space-x-2">
                   <SelectDropDown defaultValue={buildingCode} items={buildingsData} onChange={handleUpdateSelectedBuilding} />
                   <DatePicker onChange={handleDateChange} value={selectedDateString}/>
                   <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Search</Button>
-                </div>
+                </div>}
             </div>
         </>
         <p>Loading</p>
@@ -76,7 +76,7 @@ export default function Display() {
       </>
     )
   }
-
+  console.log("isBuildingCodeLoaded", isBuildingCodeLoaded)
   return (
     <>
       <Navbar />
