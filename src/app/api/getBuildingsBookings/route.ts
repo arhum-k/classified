@@ -64,16 +64,16 @@ export async function POST(request: Request){
                   const bookings = room.items
                   .filter((item) => item.itemName === "(Private)")
                   .map((period: TimeSlot) => ({
-                      start: Number(period.start as string),
-                      end: roundToNearestHalf(Number(period.end as string)),
+                      start: Number(period.start),
+                      end: roundToNearestHalf(Number(period.end)),
                       itemName:"Booked"
                     }));
               
                   const closed_hours = room.items
                     .filter((item: TimeSlot) => item.itemName === "Closed")
                     .map((period: TimeSlot) => ({
-                      start: Number(period.start as string),
-                      end: roundToNearestHalf(Number(period.end as string)),
+                      start: Number(period.start),
+                      end: roundToNearestHalf(Number(period.end)),
                       itemName:"Closed"
                     }));
   
