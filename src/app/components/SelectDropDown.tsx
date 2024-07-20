@@ -10,7 +10,6 @@ import { SelectDropDownProps } from "../types"
 
 
   export default function SelectDropDown({ items, defaultValue, onChange }: SelectDropDownProps) {
-    console.log(defaultValue, "default value")
     return (
       <Select onValueChange={onChange} defaultValue={defaultValue || undefined}>
         <SelectTrigger className="w-[162px]">

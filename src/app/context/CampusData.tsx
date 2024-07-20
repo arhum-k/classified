@@ -44,8 +44,6 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       const savedSelectedBuilding = sessionStorage.getItem("selectedBuilding");
       const savedLoading = sessionStorage.getItem("isLoading");
       const savedDate = sessionStorage.getItem("dateString");
-
-      console.log("Session Storage Values", { savedData, savedCodes, savedSelectedBuilding, savedLoading, savedDate });
       console.log(sessionStorage)
 
       if (savedData && savedCodes && savedSelectedBuilding && savedLoading && savedDate) {

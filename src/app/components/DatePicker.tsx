@@ -36,7 +36,6 @@ export function DatePicker({onChange, value}: DatePickerProps) {
     const handleSelect = (day: Date | undefined) => {
         if (day instanceof Date) {
           setDate(day);
-          console.log("Selected Date", day);
           onChange(day);
         }
       };

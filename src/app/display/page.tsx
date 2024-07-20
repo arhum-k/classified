@@ -37,7 +37,6 @@ export default function Display() {
 
 
   const handleDateChange = (date: Date) => {
-    console.log("change date", date);
     setSelectedDateString(date.toISOString());
   };
 
@@ -78,14 +77,12 @@ export default function Display() {
       </>
     )
   }
-  console.log("isBuildingCodeLoaded", isBuildingCodeLoaded)
   let availableRooms:any = []
   if (buildingCode && campusData[buildingCode]) {
     availableRooms = Object.keys(campusData[buildingCode].rooms).filter(roomCode => 
         campusData[buildingCode].rooms[roomCode].availability.length > 0
     );
   }
-  console.log(availableRooms)
   return (
     <Layout>
       <div className="p-6">

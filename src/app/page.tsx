@@ -15,7 +15,20 @@ export default function Home() {
   const [selectedBuilding, setSelectedBuilding] = useState<string | null>(null);
   const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
 
-  
+  async function fetchData() {
+    const res = await fetch("api/test", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      }
+    })
+    const data = await res.json();
+    console.log(data);
+  } 
+
+  useEffect(() => {
+    fetchData();
+  }, []);
   return (
     <CampusData>
       <Layout>
