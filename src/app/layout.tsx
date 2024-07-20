@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "UC Berkeley Room Finder",
-  description: "UC Berkeley Libraries are too packed. Find an empty room  to study in.",
+  description: "UC Berkeley Libraries are too packed. Find an empty room to study in.",
 };
 
 export default function RootLayout({
