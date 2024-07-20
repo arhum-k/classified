@@ -20,8 +20,8 @@ export interface Room {
   }
 
 export interface TimeSlot {
-    start: number | string;
-    end: number | string;
+    start: number;
+    end: number;
     itemName: string;
 
   }

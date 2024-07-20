@@ -47,11 +47,17 @@ const InfiniteTextSlider: React.FC = () => {
 
   return (
     <div className="overflow-hidden relative w-full flex justify-center">
-      <div className="w-1/2 overflow-hidden" > {/* Adjusted width */}
+      <div
+      className="w-3/4 overflow-hidden"
+      style={{
+        maskImage: 'linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0))',
+        WebkitMaskImage: 'linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0))'
+      }}
+    >
         <div ref={sliderRef} className="flex transition-transform duration-1000 ease-in-out mb-1">
           {extendedStatements.map((statement, index) => (
             <div key={index} className="flex-none w-full text-center">
-              <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
+              <h1 className="scroll-m-20 text-3xl font-extrabold tracking-tight md:text-5xl">
                 {statement}
               </h1>
             </div>
@@ -60,6 +66,8 @@ const InfiniteTextSlider: React.FC = () => {
       </div>
     </div>
   );
+
+  
 };
 
 export default InfiniteTextSlider;

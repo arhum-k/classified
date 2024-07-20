@@ -10,6 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default_berkeley_colors: "bg-[#013d82] text-[#fdb70e] hover:bg-[#014694]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline_grey_bg: "border border-input bg-gray-100 text-gray-700 hover:bg-gray-200",

@@ -10,11 +10,13 @@ import RoomCard from "../components/RoomCard";
 import { DatePicker } from "../components/DatePicker";
 import { Button } from "@/components/ui/button"
 import buildingsData from "../context/buildingsData";
+import Layout from "../layouts/Layout";
 
 
 export default function Display() {
   const { campusData, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
   const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
+  const dateReadable = new Date(selectedDateString).toDateString();
   const [buildingCode, setBuildingCode] = useState<string | null>(null);
   const [isBuildingCodeLoaded, setIsBuildingCodeLoaded] = useState<boolean>(false);
 
@@ -77,46 +79,73 @@ export default function Display() {
     )
   }
   console.log("isBuildingCodeLoaded", isBuildingCodeLoaded)
+  let availableRooms:any = []
+  if (buildingCode && campusData[buildingCode]) {
+    availableRooms = Object.keys(campusData[buildingCode].rooms).filter(roomCode => 
+        campusData[buildingCode].rooms[roomCode].availability.length > 0
+    );
+  }
+  console.log(availableRooms)
   return (
-    <>
-      <Navbar />
+    <Layout>
       <div className="p-6">
         <>
-            <div className="flex items-center justify-between mb-4">
+            {/* <div className="flex items-center justify-between mb-4">
                {isBuildingCodeLoaded && 
                 <div className="flex items-center space-x-2">
                   <SelectDropDown defaultValue={buildingCode} items={buildingsData} onChange={handleUpdateSelectedBuilding} />
                   <DatePicker onChange={handleDateChange} value={selectedDateString}/>
                   <Button variant="outline_grey_bg" onClick={handleUpdateDate}>Search</Button>
                 </div>}
-            </div>
+            </div> */}
+          <div className="flex items-center justify-between mb-4">
+            {isBuildingCodeLoaded && 
+              <div className="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-2">
+                <div className="flex items-center space-x-2">
+                  <SelectDropDown defaultValue={buildingCode} items={buildingsData} onChange={handleUpdateSelectedBuilding} />
+                  <DatePicker onChange={handleDateChange} value={selectedDateString}/>
+                </div>
+                <Button variant="outline_grey_bg" onClick={handleUpdateDate} className="md:mt-0 mt-2">Search</Button>
+              </div>}
+          </div>
         </>
         
+
         <div className="flex flex-wrap -mx-2">
-          {buildingCode && campusData && campusData[buildingCode] ? (
-            Object.keys(campusData[buildingCode].rooms).map((roomCode) => {
-              const room = campusData[buildingCode].rooms[roomCode];
-              return (
-                <div key={roomCode} className="px-2 mb-4 w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
-                  <RoomCard
-                    roomCode={roomCode}
-                    buildingCode={buildingCode}
-                    buildingName={campusData[buildingCode].building_name}
-                    max_capacity={room.max_capacity}
-                    categories={room.categories}
-                    features={room.features}
-                    availability={room.availability}
-                  />
-                </div>
-              );
-            })
+          {buildingCode ? (
+            campusData && campusData[buildingCode] ? (
+              availableRooms.length > 0 ? (
+                availableRooms.map((roomCode: string) => {
+                  const room = campusData[buildingCode].rooms[roomCode];
+                  return (
+                    room.availability.length > 0 && (
+                      <div key={roomCode} className="px-2 mb-4 w-full md:w-1/2 md:w-1/3 xl:w-1/4">
+                        <RoomCard
+                          roomCode={roomCode}
+                          buildingCode={buildingCode}
+                          buildingName={campusData[buildingCode].building_name}
+                          max_capacity={room.max_capacity}
+                          categories={room.categories}
+                          features={room.features}
+                          availability={room.availability}
+                        />
+                      </div>
+                    )
+                  );
+                })
+              ) : (
+                <p className="pl-3 font-semibold">No Available Rooms on {dateReadable}</p>
+              )
+            ) : (
+              <p className="pl-3 font-semibold">No Data Found</p>
+            )
           ) : (
-            <p>Select a building</p>
+            <p className="pl-3 font-semibold">Select a building</p>
           )}
         </div>
 
       </div>
-    </>
+    </Layout>
   )
 }
 

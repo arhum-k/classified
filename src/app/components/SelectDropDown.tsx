@@ -13,7 +13,7 @@ import { SelectDropDownProps } from "../types"
     console.log(defaultValue, "default value")
     return (
       <Select onValueChange={onChange} defaultValue={defaultValue || undefined}>
-        <SelectTrigger className="w-[180px]">
+        <SelectTrigger className="w-[162px]">
           <SelectValue placeholder="Building" />
         </SelectTrigger>
         <SelectContent className="w-[300px]">
