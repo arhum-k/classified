@@ -6,7 +6,7 @@ import CampusData from "./context/CampusData";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "UC Berkeley Room Finder",
+  title: "Classified - UC Berkeley",
   description: "UC Berkeley Libraries are too packed. Find an empty room to study in.",
 };
 

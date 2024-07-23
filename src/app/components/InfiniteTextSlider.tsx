@@ -40,9 +40,13 @@ const InfiniteTextSlider: React.FC = () => {
       }
     };
 
-    const interval = setInterval(animateSlider, pauseLength);
-
-    return () => clearInterval(interval);
+    // Trigger the first slide immediately
+    setTimeout(() => {
+      animateSlider();
+      // Then set the interval for the subsequent slides
+      const interval = setInterval(animateSlider, pauseLength);
+      return () => clearInterval(interval);
+    }, 2500);
   }, [extendedStatements.length, pauseLength]);
 
   return (

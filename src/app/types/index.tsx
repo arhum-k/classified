@@ -36,7 +36,7 @@ export interface RoomCardProps {
     roomCode: string;
     buildingCode: string | null;
     buildingName: string;
-    max_capacity: number;
+    maxCapacity: number;
     categories: string[];
     features: string[];
     availability: TimeSlot[];

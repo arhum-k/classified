@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import Navbar from "../components/Navbar";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import FeatureReqButton from "../components/FeatureReqButton";
 
 interface LayoutProps {
     children: ReactNode;
@@ -17,13 +18,11 @@ const Layout = ({ children }: LayoutProps) => {
             </div>
             <footer className="py-4 bg-white mt-auto shadow-sm flex flex-col items-center justify-center">
                 <div className="text-muted-foreground text-sm text-center">
-                    <p>ak</p>
+                    <p className="underline">ak</p>
                 </div>
-                <Link className="md:hidden mt-2" href="">
-                    <Button variant="outline">
-                        Feature Request
-                    </Button>
-                </Link>
+                <div className="md:hidden mt-2">
+                    <FeatureReqButton />
+                </div>
             </footer>
         </div>
 

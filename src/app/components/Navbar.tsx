@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useRef, useState, useEffect } from "react";
+import FeatureReqButton from "./FeatureReqButton";
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const menuRef = useRef<HTMLDivElement>(null);
@@ -42,9 +43,7 @@ export default function Navbar() {
             </a>
             <div className="flex md:order-2 space-x-3 rtl:space-x-reverse">
                 <Link className='hidden md:flex' href="">
-                    <Button variant="outline">
-                        Feature Request
-                    </Button>
+                    <FeatureReqButton/>
                 </Link> 
                 <Link href="/display">
                     <Button variant="default_berkeley_colors">
