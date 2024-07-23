@@ -10,17 +10,12 @@ TODO
     -- only /display should call getData (remove context from home?)
 -- display page    
     -- call getBuildingsBookings when Search on /display (add to Context?) (instead of calling main getBuildingsInfoAndBookings -- we alr have the info)
-    -- only display rooms with availability
     -- add/handle time select button 
-        -xx- new date picker component
-        -xx- organize date variables (specify date string or Date type)
         -- show only valid times
         -- update formatDate function so that it just adds 00s if the date doesnt 
             meet character req (right now it cuts off all time)
-    -- prettify loading screen
     -- display building name 
--- landing page
-    -- add footer
+
 -- clean up unneccessary code (mainly context stuff and console.logs)
 
 

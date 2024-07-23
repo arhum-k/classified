@@ -152,10 +152,8 @@ export async function POST(request: Request){
     }
 
     function storeBookingsInfoInRoomData(roomBookingsResponseJson: any) {
-      console.log('storebook')
         roomBookingsResponseJson.subjects.forEach((room: RoomUnavailability) => {
             const roomId = room.itemName.split(" ")[0];
-            console.log(roomId)
             const buildingCode = roomId.slice(0, 4); // Extract building code
             if (buildingsInfo[buildingCode] && buildingsInfo[buildingCode].rooms[roomId]) {
                 const bookings = room.items

@@ -35,6 +35,9 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [dateString, setDateString] = useState(new Date().toISOString());
   const initialFetch = useRef(true);
+  const abortControllerRef = useRef<AbortController | null>(null);
+
+
 
   useEffect(() => {
     console.log("useEffect triggered");
@@ -64,6 +67,13 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
   
 
   async function getData(dateString: string) {
+    if (abortControllerRef.current) {
+      console.log("ABORTING")
+      abortControllerRef.current.abort();
+    }
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+    try {
     console.log("Fetching data for dateString:", dateString);
     const res = await fetch("api/getBuildingsInfoAndBookings", {
       method: "POST",
@@ -73,6 +83,8 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       body: JSON.stringify({
         dateString: dateString || new Date().toISOString(),
       }),
+      signal: controller.signal,
+
     });
     const data = await res.json();
     if (data.result) {
@@ -90,8 +102,14 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       }
     //console.log("Data fetched:", data.result);
       }
+    } catch (error) {
+      if (error === "AbortError") {
+        console.log("Fetch aborted");
+      } else {
+        console.error("Error fetching data:", error);
+      }
     }
-
+  }
   const formatDate = (dateString: string) => {
     const d = new Date(dateString);
     const formattedDate = d.toISOString().split(".")[0]; // Removing milliseconds

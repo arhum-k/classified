@@ -109,7 +109,7 @@ export default function Display() {
               key="filters"
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0, transition: { type: "spring", stiffness: 150, damping: 20, delay: 0.65 } }} // Slower entry with delay
-              exit={{ opacity: 0, y: -50, transition: { type: "spring", stiffness: 1200, damping: 40 } }} // Faster exit, moves up
+              exit={{ opacity: 0, y: -50, transition: { type: "spring", stiffness: 150, damping: 20 } }} // Faster exit, moves up
               className="flex items-center justify-center mt-32 md:mt-64"
               >
                 <GridLoader

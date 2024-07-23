@@ -13,9 +13,15 @@ import Layout from "./layouts/Layout";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Home() {  
+  const { updateDate } = useContext(CampusDataContext);
   const [selectedBuilding, setSelectedBuilding] = useState<string | null>(null);
   const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
 
+  function hanldeUpdateDate(){
+    if (selectedDateString != null) {
+      updateDate(selectedDateString);
+    }
+  }
   return (
     <CampusData>
       <Layout>
@@ -45,7 +51,7 @@ export default function Home() {
                   <SelectDropDown defaultValue={null} items={buildingsData} onChange={setSelectedBuilding} />
                   <DatePicker onChange={setSelectedDateString} value={selectedDateString} />
                   <Link href={{ pathname: '/display', query: { buildingCode: selectedBuilding } }}>
-                    <Button variant="outline_grey_bg">Search</Button>
+                    <Button onClick={hanldeUpdateDate} variant="outline_grey_bg">Search</Button>
                   </Link>
                 </div>
               </motion.div>
