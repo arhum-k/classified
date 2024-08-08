@@ -1,0 +1,1718 @@
+{
+  "AAPB": {
+    "building_name": "Anthro/Art Practice Building",
+    "rooms": {
+      "AAPB115": {
+        "categories": "General Assignment Classroom, Location-South, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 25,
+        "default_capacity": 25
+      },
+      "AAPB155": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 61,
+        "default_capacity": 61
+      },
+      "AAPB160": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 138,
+        "default_capacity": 138
+      }
+    }
+  },
+  "BAMU": {
+    "building_name": "Berkeley Art Museum",
+    "rooms": {
+      "BAMU1T75": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-XLR, AV-Podium Microphone, AV-Screen-Powered",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 232,
+        "default_capacity": 232
+      },
+      "BAMUIT75": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-XLR, AV-Podium Microphone, AV-Screen-Powered",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 232,
+        "default_capacity": 232
+      },
+      "BAMULL14": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-DVD Player, AV-Screen-Powered, AV-VHS player",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 33,
+        "default_capacity": 33
+      }
+    }
+  },
+  "BARK": {
+    "building_name": "Barker Hall",
+    "rooms": {
+      "BARK101": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Powered, Board-White Only, Seating-Tables/Chairs Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 91,
+        "default_capacity": 91
+      },
+      "BARK110": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      }
+    }
+  },
+  "BECH": {
+    "building_name": "Bechtel Engineering Center, Sibley Auditorium",
+    "rooms": {
+      "BECH210": {
+        "categories": "HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Podium Microphone, AV-Screen-LCD, Board-Chalk Only, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 227,
+        "default_capacity": 227
+      }
+    }
+  },
+  "BIRG": {
+    "building_name": "Birge Hall",
+    "rooms": {
+      "BIRG50": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 159,
+        "default_capacity": 159
+      }
+    }
+  },
+  "BWWB": {
+    "building_name": "Berkeley Way West Building",
+    "rooms": {
+      "BWWB1104": {
+        "categories": "Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Assistive Listening Device, AV-Screen-Powered, Board-White Only, Seating-Movable, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 75,
+        "default_capacity": 75
+      }
+    }
+  },
+  "CORY": {
+    "building_name": "Cory Hall",
+    "rooms": {
+      "CORY237": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "CORY241": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 54,
+        "default_capacity": 54
+      },
+      "CORY247": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 63,
+        "default_capacity": 63
+      },
+      "CORY277": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 132,
+        "default_capacity": 132
+      },
+      "CORY285": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 27,
+        "default_capacity": 27
+      },
+      "CORY289": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 41,
+        "default_capacity": 41
+      }
+    }
+  },
+  "DAVS": {
+    "building_name": "Davis Hall",
+    "rooms": {
+      "DAVS534": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 85,
+        "default_capacity": 85
+      }
+    }
+  },
+  "DONN": {
+    "building_name": "Donner Laboratory",
+    "rooms": {
+      "DONN155": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Assistive Listening Device, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-Connection-XLR, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 87,
+        "default_capacity": 87
+      }
+    }
+  },
+  "DWIN": {
+    "building_name": "Dwinelle Hall",
+    "rooms": {
+      "DWIN104": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 15,
+        "default_capacity": 15
+      },
+      "DWIN105": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 32,
+        "default_capacity": 32
+      },
+      "DWIN106": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 25,
+        "default_capacity": 25
+      },
+      "DWIN109": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "DWIN130": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN134": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 22,
+        "default_capacity": 22
+      },
+      "DWIN247": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN250": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN251": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN254": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN255": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN258": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN259": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN262": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "DWIN263": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 21,
+        "default_capacity": 21
+      },
+      "DWIN279": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 22,
+        "default_capacity": 22
+      },
+      "DWIN283": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN370": {
+        "categories": "Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Computer Data Display, AV-Connection-VGA, AV-Connection-XLR, AV-DVD Player, AV-Podium Microphone, AV-Screen-Manual Projector, AV-VHS player, Board-White Only, Seating-Movable, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 54,
+        "default_capacity": 54
+      },
+      "DWIN79": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "DWIN83": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN87": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN88": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 56,
+        "default_capacity": 56
+      },
+      "DWIN89": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "DWIN145": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 217,
+        "default_capacity": 217
+      },
+      "DWIN155": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 481,
+        "default_capacity": 481
+      },
+      "DWIN179": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN182": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      },
+      "DWIN183": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN187": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN189": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "DWIN204": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 17,
+        "default_capacity": 17
+      },
+      "DWIN205": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 32,
+        "default_capacity": 32
+      },
+      "DWIN206": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 25,
+        "default_capacity": 25
+      },
+      "DWIN209": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "DWIN210": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 17,
+        "default_capacity": 17
+      },
+      "DWIN211": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 18,
+        "default_capacity": 18
+      },
+      "DWIN215": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "DWIN219": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 56,
+        "default_capacity": 56
+      },
+      "DWIN223": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "DWIN225": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 18,
+        "default_capacity": 18
+      },
+      "DWIN228": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "DWIN229": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "DWIN233": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 19,
+        "default_capacity": 19
+      },
+      "DWIN234": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "DWIN235": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 25,
+        "default_capacity": 25
+      },
+      "DWIN242": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "DWIN243": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "DWIN246": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      }
+    }
+  },
+  "WHLR": {
+    "building_name": "Wheeler Hall",
+    "rooms": {
+      "WHLR120": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "WHLR122": {
+        "categories": "General Assignment Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Seminar, Seating-Tables/Chairs, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 19,
+        "default_capacity": 19
+      },
+      "WHLR124": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "WHLR126": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "WHLR130": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 41,
+        "default_capacity": 41
+      },
+      "WHLR150": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 744,
+        "default_capacity": 744
+      },
+      "WHLR20": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      },
+      "WHLR200": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "WHLR202": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 42,
+        "default_capacity": 42
+      },
+      "WHLR204": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 54,
+        "default_capacity": 54
+      },
+      "WHLR212": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, AV-Workstation-Display, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 122,
+        "default_capacity": 122
+      },
+      "WHLR220": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 40,
+        "default_capacity": 40
+      },
+      "WHLR222": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 60,
+        "default_capacity": 60
+      },
+      "WHLR224": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "WHLR24": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "WHLR30": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "WHLR100": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, AV-Workstation-Display, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "WHLR102": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 60,
+        "default_capacity": 60
+      },
+      "WHLR104": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "WHLR106": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Seminar, Seating-Tables/Chairs, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 29,
+        "default_capacity": 29
+      },
+      "WHLR108": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      }
+    }
+  },
+  "WURS": {
+    "building_name": "Wurster Hall",
+    "rooms": {
+      "WURS101": {
+        "categories": "Classroom, General Assignment Classroom, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      },
+      "WURS102": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-South",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 61,
+        "default_capacity": 61
+      }
+    }
+  },
+  "SOCS": {
+    "building_name": "Social Sciences Building",
+    "rooms": {
+      "SOCS581": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "SOCS587": {
+        "categories": "Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "SOCS60": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 68,
+        "default_capacity": 68
+      },
+      "SOCS78": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 18,
+        "default_capacity": 18
+      },
+      "SOCS80": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "SOCS102": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Board-White Only, Seating-Seminar, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 13,
+        "default_capacity": 13
+      },
+      "SOCS104": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 33,
+        "default_capacity": 33
+      },
+      "SOCS110": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, AV-Single Input-Dual Display, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 54,
+        "default_capacity": 54
+      },
+      "SOCS115": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 18,
+        "default_capacity": 18
+      },
+      "SOCS118": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, AV-Workstation-Display, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "SOCS122": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Seminar",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "SOCS126": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 69,
+        "default_capacity": 69
+      },
+      "SOCS129": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-White Only, Seating-Seminar, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 13,
+        "default_capacity": 13
+      },
+      "SOCS136": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "SOCS140": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 47,
+        "default_capacity": 47
+      },
+      "SOCS151": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "SOCS155": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "SOCS166": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 65,
+        "default_capacity": 65
+      },
+      "SOCS170": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 65,
+        "default_capacity": 65
+      },
+      "SOCS174": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "SOCS175": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "SOCS180": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 95plus sq ft, Board-White Only, Seating-Seminar, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "SOCS185": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "SOCS186": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 15,
+        "default_capacity": 15
+      },
+      "SOCS20": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Single Input-Dual Display, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window-None",
+        "layouts": "Default",
+        "max_capacity": 75,
+        "default_capacity": 75
+      },
+      "SOCS50": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "SOCS54": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-Central, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 25,
+        "default_capacity": 25
+      },
+      "SOCS56": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 55,
+        "default_capacity": 55
+      }
+    }
+  },
+  "STAN": {
+    "building_name": "Stanley Hall",
+    "rooms": {
+      "STAN105": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Podium Microphone, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 292,
+        "default_capacity": 292
+      },
+      "STAN106": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-Dual Input-Dual Display, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, AV-Single Input-Dual Display, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 114,
+        "default_capacity": 114
+      },
+      "STAN179": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Powered, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      }
+    }
+  },
+  "SUTD": {
+    "building_name": "Sutardja Dai Hall",
+    "rooms": {
+      "SUTD250": {
+        "categories": "Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Screen-Manual Projector, AV-Screen-Powered, Board-White Only, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      }
+    }
+  },
+  "TANH": {
+    "building_name": "Tan Hall",
+    "rooms": {
+      "TANH180": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Demonstration Bench, Demonstration Bench-Water, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 76,
+        "default_capacity": 76
+      }
+    }
+  },
+  "VLSB": {
+    "building_name": "Valley Life Sciences Building",
+    "rooms": {
+      "VLSB2030": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "VLSB2032": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "VLSB2038": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-Course Capture, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "VLSB2040": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 158,
+        "default_capacity": 158
+      },
+      "VLSB2050": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 408,
+        "default_capacity": 408
+      },
+      "VLSB2060": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Demonstration Bench, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 157,
+        "default_capacity": 157
+      },
+      "VLSB2062": {
+        "categories": "Classroom, General Assignment Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "VLSB2066": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "VLSB2070": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 30,
+        "default_capacity": 30
+      }
+    }
+  },
+  "WEIL": {
+    "building_name": "Joan and Sanford I. Weill Hall",
+    "rooms": {
+      "WEIL101": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 9999,
+        "default_capacity": 91
+      }
+    }
+  },
+  "PHYS": {
+    "building_name": "Physics Building",
+    "rooms": {
+      "PHYS4": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Demonstration Bench, Window-None",
+        "layouts": "Default",
+        "max_capacity": 195,
+        "default_capacity": 195
+      },
+      "PHYS1": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 216,
+        "default_capacity": 216
+      },
+      "PHYS2": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 100,
+        "default_capacity": 100
+      },
+      "PHYS251": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-DVD Player, AV-Podium Microphone, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 88,
+        "default_capacity": 88
+      },
+      "PHYS3": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 107,
+        "default_capacity": 107
+      },
+      "PHYS385": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      }
+    }
+  },
+  "PMTL": {
+    "building_name": "Pimentel Hall",
+    "rooms": {
+      "PMTL1": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-Dual Input-Dual Display, AV-DVD Player, AV-Podium Microphone, AV-Screen-Manual Projector, AV-Single Input-Dual Display, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Demonstration Bench, Demonstration Bench-Water, Stage-Rotating, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 527,
+        "default_capacity": 527
+      }
+    }
+  },
+  "LATI": {
+    "building_name": "Latimer Hall",
+    "rooms": {
+      "LATI121": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "LATI122": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "LATI102": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 32,
+        "default_capacity": 32
+      },
+      "LATI105": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 34,
+        "default_capacity": 34
+      },
+      "LATI120": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Demonstration Bench, Demonstration Bench-Water, Window-None",
+        "layouts": "Additional Photos, Default, Lecture",
+        "max_capacity": 182,
+        "default_capacity": 182
+      }
+    }
+  },
+  "LEWS": {
+    "building_name": "Lewis Hall",
+    "rooms": {
+      "LEWS100": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Demonstration Bench, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 261,
+        "default_capacity": 261
+      },
+      "LEWS9": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 72,
+        "default_capacity": 72
+      }
+    }
+  },
+  "MCCN": {
+    "building_name": "McCone Hall",
+    "rooms": {
+      "MCCN141": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 100,
+        "default_capacity": 100
+      }
+    }
+  },
+  "MOFF": {
+    "building_name": "Moffitt Undergraduate Library",
+    "rooms": {
+      "MOFF101": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 84,
+        "default_capacity": 84
+      },
+      "MOFF102": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 82,
+        "default_capacity": 82
+      },
+      "MOFF103": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      },
+      "MOFF103D": {
+        "categories": "Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 9999,
+        "default_capacity": 9999
+      },
+      "MOFF106": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-Central",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 49,
+        "default_capacity": 49
+      },
+      "MOFF145": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-Central, Movement Classroom",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Single Input-Dual Display, Board-Chalk Only, Board-Front 95plus sq ft, Environment-Movement, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window-None",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 96,
+        "default_capacity": 96
+      },
+      "MOFF150D": {
+        "categories": "Classroom, Location-Central",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 49,
+        "default_capacity": 49
+      }
+    }
+  },
+  "MORG": {
+    "building_name": "Morgan Hall",
+    "rooms": {
+      "MORG101": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 142,
+        "default_capacity": 142
+      },
+      "MORG101D": {
+        "categories": "Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 9999,
+        "default_capacity": 9999
+      }
+    }
+  },
+  "MULF": {
+    "building_name": "Mulford Hall",
+    "rooms": {
+      "MULF106": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Seminar",
+        "max_capacity": 15,
+        "default_capacity": 15
+      },
+      "MULF107": {
+        "categories": "General Assignment Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, AV-Single Input-Dual Display, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Group",
+        "max_capacity": 16,
+        "default_capacity": 16
+      },
+      "MULF159": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-West",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 141,
+        "default_capacity": 141
+      },
+      "MULF230": {
+        "categories": "Active Learning Classroom, General Assignment Classroom, HD Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-DVD Player, AV-Screen-LCD, AV-Screen-Manual Projector, AV-Workstation-Display, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Lecture",
+        "max_capacity": 30,
+        "default_capacity": 30
+      },
+      "MULF240": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 50,
+        "default_capacity": 50
+      }
+    }
+  },
+  "NGAT": {
+    "building_name": "North Gate Hall",
+    "rooms": {
+      "NGAT105": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 139,
+        "default_capacity": 139
+      }
+    }
+  },
+  "EVAN": {
+    "building_name": "Evans Hall",
+    "rooms": {
+      "EVAN9": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "EVAN10": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 237,
+        "default_capacity": 237
+      },
+      "EVAN2": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN3": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "EVAN31": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN35": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN39": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN4": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN41": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN45": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN47": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN5": {
+        "categories": "General Assignment Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "EVAN51": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN55": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN6": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN60": {
+        "categories": "Auditorium, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 102,
+        "default_capacity": 102
+      },
+      "EVAN61": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN65": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 15,
+        "default_capacity": 15
+      },
+      "EVAN7": {
+        "categories": "General Assignment Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 22,
+        "default_capacity": 22
+      },
+      "EVAN70": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "EVAN71": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Default, Seminar",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN72": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-North, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 20,
+        "default_capacity": 20
+      },
+      "EVAN75": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN81": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN85": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      },
+      "EVAN87": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-DVD Player, AV-Screen-LCD, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 28,
+        "default_capacity": 28
+      }
+    }
+  },
+  "GIAN": {
+    "building_name": "Giannini Hall",
+    "rooms": {
+      "GIAN141": {
+        "categories": "Classroom, General Assignment Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 50,
+        "default_capacity": 50
+      },
+      "GIAN201": {
+        "categories": "General Assignment Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 24,
+        "default_capacity": 24
+      },
+      "GIAN332": {
+        "categories": "General Assignment Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Seminar, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default, Seminar",
+        "max_capacity": 16,
+        "default_capacity": 16
+      }
+    }
+  },
+  "GPBB": {
+    "building_name": "Genetics & Plant Biology Building",
+    "rooms": {
+      "GPBB100": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Stage, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 204,
+        "default_capacity": 204
+      },
+      "GPBB103": {
+        "categories": "Classroom, General Assignment Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 47,
+        "default_capacity": 47
+      },
+      "GPBB104": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 16,
+        "default_capacity": 16
+      },
+      "GPBB107": {
+        "categories": "Classroom, General Assignment Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, AV-VHS player, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 47,
+        "default_capacity": 47
+      }
+    }
+  },
+  "GSPP": {
+    "building_name": "Goldman School of Public Policy",
+    "rooms": {
+      "GSPP150": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Screen-Powered, Board-Chalk Only, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 86,
+        "default_capacity": 86
+      }
+    }
+  },
+  "HAAS": {
+    "building_name": "Haas Faculty Wing",
+    "rooms": {
+      "HAASF295": {
+        "categories": "General Assignment Classroom, Lecture Hall, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV-Assistive Listening Device, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-VGA, AV-Document Camera, AV-DVD Player, AV-Podium Microphone, AV-Screen-Manual Projector, AV-Screen-Powered, AV-VHS player, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 299,
+        "default_capacity": 299
+      }
+    }
+  },
+  "HAVI": {
+    "building_name": "Haviland Hall",
+    "rooms": {
+      "HAVI12": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-West",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 54,
+        "default_capacity": 54
+      },
+      "HAVI214": {
+        "categories": "General Assignment Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-LCD, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Default, Group",
+        "max_capacity": 18,
+        "default_capacity": 18
+      },
+      "HAVI321": {
+        "categories": "General Assignment Classroom, HD Classroom, Location-West, Seminar Room",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 18,
+        "default_capacity": 18
+      }
+    }
+  },
+  "HFAX": {
+    "building_name": "Hearst Field Annex",
+    "rooms": {
+      "HFAXA1": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, AV-Single Input-Dual Display, Board-Chalk Only, Board-Front 95plus sq ft, Board-White Only, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 227,
+        "default_capacity": 227
+      },
+      "HFAXB1": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "HFAXB5": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-South",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Seating-Tables/Chairs, Seating-Tables/Chairs Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 46,
+        "default_capacity": 46
+      }
+    }
+  },
+  "HGYM": {
+    "building_name": "Hearst Memorial Gymnasium",
+    "rooms": {
+      "HGYM242": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-South, Movement Classroom",
+        "features": "AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default, Group, Open Circle",
+        "max_capacity": 36,
+        "default_capacity": 36
+      },
+      "HGYM245": {
+        "categories": "Classroom, General Assignment Classroom, Location-South",
+        "features": "AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default, Group, Open Circle",
+        "max_capacity": 28,
+        "default_capacity": 28
+      }
+    }
+  },
+  "HILD": {
+    "building_name": "Hildebrand Hall",
+    "rooms": {
+      "HILDB51": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      },
+      "HILDB56": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window, Window-None",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 35,
+        "default_capacity": 35
+      }
+    }
+  },
+  "HMMB": {
+    "building_name": "Hearst Memorial Mining Building",
+    "rooms": {
+      "HMMB310": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Course Capture, AV-Course Capture Video, AV-DVD Player, AV-Screen-Manual Projector, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 48,
+        "default_capacity": 48
+      },
+      "HMMB390": {
+        "categories": "General Assignment Classroom, HD Classroom, Lecture Hall, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 95plus sq ft, Board-White Only, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 160,
+        "default_capacity": 160
+      }
+    }
+  },
+  "ETCH": {
+    "building_name": "Etcheverry Hall",
+    "rooms": {
+      "ETCH3105": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 37,
+        "default_capacity": 37
+      },
+      "ETCH3106": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 75,
+        "default_capacity": 75
+      },
+      "ETCH3107": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 45,
+        "default_capacity": 45
+      },
+      "ETCH3108": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 75,
+        "default_capacity": 75
+      },
+      "ETCH3109": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 45,
+        "default_capacity": 45
+      },
+      "ETCH3111": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 45,
+        "default_capacity": 45
+      },
+      "ETCH3113": {
+        "categories": "Classroom, General Assignment Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV - Microphones, AV - Video Conference Capable, AV-Assistive Listening Device, AV-Blu-ray Player, AV-Computer Data Display, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Connection-XLR, AV-Course Capture, AV-Course Capture Video, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Chalk Only, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Seating-Tables/Chairs, Seating-Tables/Chairs Fixed, Window",
+        "layouts": "Additional Photos, Default",
+        "max_capacity": 45,
+        "default_capacity": 45
+      },
+      "ETCH3119": {
+        "categories": "Classroom, General Assignment Classroom, HD Classroom, Location-North",
+        "features": "ADA-Instructor Accessible, ADA-Student Accessible, AV-Blu-ray Player, AV-Computer Data Display, AV-Computer Data Display HD, AV-Connection-Aux, AV-Connection-HDMI, AV-Connection-VGA, AV-Document Camera, AV-DVD Player, AV-Screen-Manual Projector, Board-Front 150plus sq ft, Board-Front 95plus sq ft, Board-White Only, Seating-Movable, Window",
+        "layouts": "Additional Photos, Default, Group",
+        "max_capacity": 35,
+        "default_capacity": 35
+      }
+    }
+  }
+}

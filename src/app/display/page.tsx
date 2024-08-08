@@ -12,11 +12,17 @@ import { Button } from "@/components/ui/button"
 import buildingsData from "../context/buildingsData";
 import Layout from "../layouts/Layout";
 import { AnimatePresence, motion } from "framer-motion";
+import { ExclamationTriangleIcon, RocketIcon } from "@radix-ui/react-icons"
+import {
+  Alert,
+  AlertDescription,
+  AlertTitle,
+} from "@/components/ui/alert"
 import { GridLoader } from "react-spinners";
 
 
 export default function Display() {
-  const { campusData, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
+  const { campusData, selectedBuilding, useMockData, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData } = useContext(CampusDataContext);
   const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
   const dateReadable = new Date(selectedDateString).toDateString();
   const [buildingCode, setBuildingCode] = useState<string | null>(null);
@@ -82,6 +88,23 @@ export default function Display() {
 
   return (
     <Layout>
+      {useMockData &&
+      <AnimatePresence>
+          <motion.div
+            initial={{ opacity: 0, y: -50 }} // Start above the view
+            animate={{ opacity: 1, y: 0, transition: { type: "spring", stiffness: 150, damping: 20, delay: 0.65 } }} // Slower entry with delay
+            exit={{ opacity: 0, y: -50, transition: { type: "spring", stiffness: 1200, damping: 40 } }} // Faster exit, moves up
+            className="flex justify-center pt-3">
+            <Alert variant="destructive" className="w-1/2">
+            <ExclamationTriangleIcon className="h-4 w-4" />
+              <AlertTitle>Site is under maintanance!</AlertTitle>
+              <AlertDescription>
+              The information shown is for demo purposes only and does not reflect real-time data.
+              </AlertDescription>
+            </Alert>
+          </motion.div>
+        </AnimatePresence>
+      }
       <div className="p-6">
         <AnimatePresence>
           {isBuildingCodeLoaded && (

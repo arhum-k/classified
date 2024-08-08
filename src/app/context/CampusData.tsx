@@ -1,9 +1,11 @@
 "use client";
 import { CloudCog } from "lucide-react";
 import React, { createContext, useEffect, useState, useRef } from "react";
+import buildingsInfoData from '@/app/context/buildingsInfoData.json';
 
 interface CampusContextType {
   campusData: any;
+  useMockData: boolean;
   buildingCodes: string[] | null;
   selectedBuilding: string | null;
   isLoading: boolean;
@@ -16,6 +18,7 @@ interface CampusContextType {
 
 const initialContextState: CampusContextType = {
   campusData: null,
+  useMockData: false,
   buildingCodes: null,
   selectedBuilding: null,
   isLoading: true,
@@ -30,6 +33,8 @@ export const CampusDataContext = createContext(initialContextState);
 
 const CampusData = ({ children }: { children: React.ReactNode }) => {
   const [campusData, setCampusData] = useState<any>(null);
+  const buildingsInfo: Record<string, any> = buildingsInfoData
+  const [useMockData, setUseMockData] = useState<boolean>(true);
   const [buildingCodes, setBuildingCodes] = useState<string[] | null>(null);
   const [selectedBuilding, setSelectedBuilding] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -57,16 +62,67 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
         setDateString(savedDate);
         console.log("Using saved session storage data");
       } else if (initialFetch.current) {
-        getData(dateString);
+        if (useMockData){
+          getMockData();
+        } else {
+          getData(dateString);
+        }
         initialFetch.current = false;
         console.log("Initial fetch triggered");
       }
     }
   }, []);
 
+  function getMockData() {
+    const mockBuildingsInfo = { ...buildingsInfo };
+    const closedHours = [{ startstart: 6, end: 8 }, { start: 22, end: 24 }];
+    
+    function getRandomBookings() {
+      const bookings = [];
+      for (let i = 0, n = Math.floor(Math.random() * 4) + 1; i < n; i++) {
+        const start = Math.floor(Math.random() * 12) + 8;
+        const duration = Math.floor(Math.random() * 4) + 1;
+        bookings.push({ start: start, end: start + duration });
+      }
+      return bookings;
+    }
+    
+    for (const building in mockBuildingsInfo) {
+      for (const room in mockBuildingsInfo[building].rooms) {
+        const bookings = getRandomBookings();
+        mockBuildingsInfo[building].rooms[room].closed_hours = closedHours;
+        mockBuildingsInfo[building].rooms[room].bookings = bookings;
+        mockBuildingsInfo[building].rooms[room].availability = [];
   
+        let currentTime = 8;
+        for (const { start, end } of bookings) {
+          if (currentTime < start) mockBuildingsInfo[building].rooms[room].availability.push({ start: currentTime, end: start });
+          currentTime = end;
+        }
+        if (currentTime < 22) mockBuildingsInfo[building].rooms[room].availability.push({ start: currentTime, end: 22 });
+      }
+    }
+    console.log("Mock data generated", mockBuildingsInfo);
+
+    setCampusData(mockBuildingsInfo);
+    setBuildingCodes(Object.keys(mockBuildingsInfo));
+    setIsLoading(false);
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem("campusData", JSON.stringify(mockBuildingsInfo));
+      sessionStorage.setItem("buildingCodes", JSON.stringify(Object.keys(mockBuildingsInfo)));
+      sessionStorage.setItem("selectedBuilding", selectedBuilding ? selectedBuilding : JSON.stringify(null));
+      sessionStorage.setItem("isLoading", JSON.stringify(false));
+      sessionStorage.setItem("dateString", dateString); // Ensure dateString is saved
+
+      console.log("Data saved to session storage");
+    }
+  }
 
   async function getData(dateString: string) {
+    if (useMockData) {
+      getMockData()
+      return;
+    }
     if (abortControllerRef.current) {
       console.log("ABORTING")
       abortControllerRef.current.abort();
@@ -146,7 +202,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <CampusDataContext.Provider
-      value={{ campusData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData }}
+      value={{ campusData, useMockData, buildingCodes, selectedBuilding, isLoading, dateString, updateDate, updateSelectedBuilding, refreshData }}
     >
       {children}
     </CampusDataContext.Provider>
