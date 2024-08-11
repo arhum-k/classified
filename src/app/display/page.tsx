@@ -166,6 +166,7 @@ export default function Display() {
                               categories={room.categories}
                               features={room.features}
                               availability={room.availability}
+                              dateString={selectedDateString}
                             />
                           </motion.div>
                         ) : null;

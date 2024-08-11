@@ -2,11 +2,21 @@ import { RoomCardProps, TimeSlot } from "../types";
 import { useState } from "react";
 import { CustomPopover } from "./CustomPopover";
 import { motion } from "framer-motion";
+import { CalendarIcon } from "@radix-ui/react-icons";
+import { BsBuilding } from "react-icons/bs";
+import { FaPeopleGroup } from "react-icons/fa6";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 
 
 
-export default function RoomCard({ roomCode, buildingCode, buildingName, maxCapacity, categories, features, availability }: RoomCardProps) {
+export default function RoomCard({ roomCode, buildingCode, buildingName, maxCapacity, categories, features, availability, dateString }: RoomCardProps) {
   const [showFeatures, setShowFeatures] = useState(false);
+  const date = new Date(dateString);
     const roomNum = roomCode.slice(4, roomCode.length);
   
     
@@ -28,9 +38,29 @@ export default function RoomCard({ roomCode, buildingCode, buildingName, maxCapa
     >
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Room {roomNum}</h3>
         <div className="flex flex-col justify-between flex-grow">
-          <div className="flex-1 mb-2">
-            <p className="text-gray-600 mb-2"><span className="font-semibold text-gray-800">Building:</span> {buildingName}</p>
-            <p className="text-gray-600 mb-2"><span className="font-semibold text-gray-800">Max Capacity:</span> {maxCapacity}</p>
+          <div className="flex-1 mb-2 space-y-1">
+            <div className="flex flex-row">
+              <CalendarIcon className="mr-1 h-6 w-5" /> 
+              <p className="text-gray-600">{date.toLocaleDateString()}</p>
+            </div>
+            <div className="flex flex-row">
+              <BsBuilding className="mr-1 h-6 w-5" /> 
+              <p className="text-gray-600">{buildingName}</p>
+            </div>
+            <TooltipProvider>
+              <Tooltip>
+                <TooltipTrigger>
+                  <div className="flex flex-row">
+                    <FaPeopleGroup className="mr-1 h-6 w-5" /> 
+                    <p className="text-gray-600">{maxCapacity}</p>
+                  </div>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Max Capacity</p>
+                </TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
+          
           </div>
           <div className="flex-1 mb-4">
             <h4 className="text-xl font-semibold text-gray-800 mb-2">Availability:</h4>

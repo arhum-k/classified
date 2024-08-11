@@ -68,7 +68,8 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
     }
   }, []);
 
-  function getMockData() {
+  function getMockData(dateString: string) {
+    console.log(dateString)
     const mockBuildingsInfo = { ...buildingsInfo };
     const closedHours = [{ startstart: 6, end: 8 }, { start: 22, end: 24 }];
     
@@ -115,7 +116,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
   async function getData(dateString: string) {
     if (useMockData) {
-      getMockData()
+      getMockData(dateString)
       return;
     }
     if (abortControllerRef.current) {

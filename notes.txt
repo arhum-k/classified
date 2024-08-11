@@ -6,10 +6,26 @@ NAMES:
 
 TODO
 
---clean up data calls 
-    -- only /display should call getData (remove context from home?)
+campusData
+    -- display date to campus data
 -- display page    
-    -- call getBuildingsBookings when Search on /display (add to Context?) (instead of calling main getBuildingsInfoAndBookings -- we alr have the info)
+    -IMPORTANT-redo route call (IN PROGRESS)
+        - remove call for buildingInfo and just import the json, only call getBuildingsBookings and add the bookings/availability to the buildingInfo json
+        - create a seperate api call to re fetch building info and replace local buildingInfoData field -- create separate page that calls this api and CRON it once every 15 days just in case it updates
+                    import * as fs from 'fs';
+                    import * as path from 'path';
+                    function saveObjectAsJson(obj: any, filename: string, directory: string) {
+                        // Convert the object to a JSON string
+                        const jsonString = JSON.stringify(obj, null, 2); // Pretty print JSON with 2-space indentation
+
+                        // Write the JSON string to a file
+                        const filePath = path.join(directory, filename);
+                        fs.writeFileSync(filePath, jsonString, 'utf8');
+                    }
+                    saveObjectAsJson(data, "buildingInfoData.json, "./context) //need to make sure directory path is accurate
+
+        - append results to campusData and add date field 
+    --make date/search not clickable while isLoading
     -- add/handle time select button 
         -- show only valid times
         -- update formatDate function so that it just adds 00s if the date doesnt 
@@ -20,6 +36,7 @@ TODO
 
 
 
-
-
 BUGS
+-- searching new date fromm home menu. aborting is prob messed up 
+    -- new method to stop getBuildingsBookings from running when display page is hit b/c current implementation prevents new date ssearch from home pg
+-- roomCardProps rendering twice when new date is searched (on mock data)

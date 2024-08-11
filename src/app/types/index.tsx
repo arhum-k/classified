@@ -40,6 +40,7 @@ export interface RoomCardProps {
     categories: string[];
     features: string[];
     availability: TimeSlot[];
+    dateString: string;
 }
 
 export interface SelectDropDownProps {
