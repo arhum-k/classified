@@ -11,10 +11,7 @@ export async function POST(request: Request){
     try {
         const body = await request.json();
         const userEmail = body.email || "anonymous";
-        console.log(userEmail)
         const featureRequest = body.featureRequest;
-    
-        console.log("Feature Request:", featureRequest);
 
         const base = new Airtable({ apiKey }).base(baseId);
     

@@ -18,7 +18,7 @@ export default function Home() {
   const [selectedDateString, setSelectedDateString] = useState<string>(new Date().toISOString());
 
   function hanldeUpdateDate(){
-    if (selectedDateString != null) {
+    if (selectedDateString != null && selectedDateString != (new Date().toISOString())){
       updateDate(selectedDateString);
     }
   }

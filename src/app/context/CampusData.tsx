@@ -52,7 +52,6 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
       const savedSelectedBuilding = sessionStorage.getItem("selectedBuilding");
       const savedLoading = sessionStorage.getItem("isLoading");
       const savedDate = sessionStorage.getItem("dateString");
-      console.log(sessionStorage)
 
       if (savedData && savedCodes && savedSelectedBuilding && savedLoading && savedDate) {
         setCampusData(JSON.parse(savedData));
@@ -62,13 +61,9 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
         setDateString(savedDate);
         console.log("Using saved session storage data");
       } else if (initialFetch.current) {
-        if (useMockData){
-          getMockData();
-        } else {
-          getData(dateString);
-        }
+        getData(dateString);
         initialFetch.current = false;
-        console.log("Initial fetch triggered");
+        console.log("No saved session storage data - initial fetch triggered");
       }
     }
   }, []);
@@ -102,7 +97,7 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
         if (currentTime < 22) mockBuildingsInfo[building].rooms[room].availability.push({ start: currentTime, end: 22 });
       }
     }
-    console.log("Mock data generated", mockBuildingsInfo);
+    console.log("Mock data generated");
 
     setCampusData(mockBuildingsInfo);
     setBuildingCodes(Object.keys(mockBuildingsInfo));
@@ -130,8 +125,8 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
     const controller = new AbortController();
     abortControllerRef.current = controller;
     try {
-    console.log("Fetching data for dateString:", dateString);
-    const res = await fetch("api/getBuildingsInfoAndBookings", {
+    console.log("Fetching data for date:", dateString);
+    const res = await fetch("api/getBuildingsBookings", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -156,7 +151,6 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
 
         console.log("Data saved to session storage");
       }
-    //console.log("Data fetched:", data.result);
       }
     } catch (error) {
       if (error === "AbortError") {
@@ -191,10 +185,10 @@ const CampusData = ({ children }: { children: React.ReactNode }) => {
     setIsLoading(true);
     getData(dateString);
     console.log("Data refreshed");
-    console.log("Selected Building:", sessionStorage.getItem("selectedBuilding"));
-    console.log("Date:", sessionStorage.getItem("dateString"));
-    console.log("Campus Data:", sessionStorage.getItem("campusData"));
-    console.log("Building Codes:", sessionStorage.getItem("buildingCodes"));
+    // console.log("Selected Building:", sessionStorage.getItem("selectedBuilding"));
+    // console.log("Date:", sessionStorage.getItem("dateString"));
+    // console.log("Campus Data:", sessionStorage.getItem("campusData"));
+    // console.log("Building Codes:", sessionStorage.getItem("buildingCodes"));
     
   };
 

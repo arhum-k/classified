@@ -31,7 +31,7 @@ export default function Display() {
   const [roomsLoading, setRoomsLoading] = useState<boolean>(false);
 
 
-  console.log("campus Data context", campusData)
+  //console.log("campus Data context", campusData)
 
 
   useEffect(() => {
@@ -42,7 +42,6 @@ export default function Display() {
   }, []);
 
   useEffect(() => {
-    console.log("dateString useEffect triggered", dateString);
     setSelectedDateString(dateString);
   }, [dateString]);
 
