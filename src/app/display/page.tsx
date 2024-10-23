@@ -87,7 +87,7 @@ export default function Display() {
 
   return (
     <Layout>
-      {useMockData &&
+      {/* {useMockData &&
       <AnimatePresence>
           <motion.div
             initial={{ opacity: 0, y: -50 }} // Start above the view
@@ -103,7 +103,7 @@ export default function Display() {
             </Alert>
           </motion.div>
         </AnimatePresence>
-      }
+      } */}
       <div className="p-6">
         <AnimatePresence>
           {isBuildingCodeLoaded && (
